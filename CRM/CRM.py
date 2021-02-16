@@ -17,7 +17,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 # Data
 
-data = pd.read_excel('datasets/online_retail_II.xlsx', sheet_name="Year 2010-2011")
+data = pd.read_excel('online_retail_II.xlsx', sheet_name="Year 2010-2011")
 
 df = data.copy()
 
