@@ -7,10 +7,10 @@ import datetime as dt
 # Some configurations.
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.max_rows', 30)
-pd.set_option('display.flat_format', lambda x: '%.5f' % x)
+pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 # Data
-df_ = pd.read_excel(r"C:\Users\Dursun Can\Desktop\VB\DSMLBC\datasets\online_retail_II.xlsx", sheet_name= "Year 2010-2011")
+df_ = pd.read_excel(r"online_retail_II.xlsx", sheet_name= "Year 2010-2011")
 df = df_.copy()
 
 # In this data C mean is return. Return invoices deleted.
