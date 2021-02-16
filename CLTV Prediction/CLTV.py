@@ -31,7 +31,7 @@ def replace_with_thresholds(dataframe, variable):
     dataframe.loc[(dataframe[variable] > up_limit), variable] = up_limit
 
 # Data
-data = pd.read_excel("datasets/online_retail_II.xlsx", sheet_name="Year 2010-2011")
+data = pd.read_excel("online_retail_II.xlsx", sheet_name="Year 2010-2011")
 # United Kingdom selected.
 data_UK = data[data['Country'] == "United Kingdom"]
 df = data_UK.copy()
