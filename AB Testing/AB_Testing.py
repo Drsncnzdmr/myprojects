@@ -1,5 +1,9 @@
 ############################################################
 
+"""
+This project deals with the differences between Maximum bidding and average bidding.
+
+"""
 
 # imports
 
