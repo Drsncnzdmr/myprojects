@@ -6,8 +6,8 @@
 import pandas as pd
 
 # Data
-users = pd.read_csv("datasets/users.csv")
-purchases = pd.read_csv("datasets/purchases.csv")
+users = pd.read_csv("users.csv")
+purchases = pd.read_csv("purchases.csv")
 
 data = users.merge(purchases, how= "inner", on= "uid") # Datas merged.
 
